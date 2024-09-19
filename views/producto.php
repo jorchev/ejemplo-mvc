@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1><?php echo $producto->obtenerNombre(); ?></h1>
+    <p>Descripcion: <?php echo $producto->obtenerDescripcion(); ?></p>
     <p>Precio: $<?php echo $producto->obtenerPrecio(); ?></p>
 </body>
 </html>
